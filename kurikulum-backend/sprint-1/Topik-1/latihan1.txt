@@ -1,0 +1,25 @@
+download apliasi microsoft word pro 
+buka apliaski
+registrasi di dalam apliasi
+masukan akun
+pilih pembayar
+              1Bulan = 250.000
+              2Bulan = 500.000
+              3Bulan = 750.000
+selesai
+
+set total Aplikasi = 1
+set hasil pendapatan dari Aplikasi = 2.000.000.000
+set  batasUserapikasi= 2000
+
+JIKA 2000>2005
+     Tampilkan Notifikasi login gagal di user tidak terdaftar
+LAINNYA 
+     Tampilkan Notifikasi Login berhasil di user terdaftar
+AKHIR-KETIKA
+
+KETIKA 2000<1995
+    Tambahkan 5 user dari user tidak terdaftar
+
+UNTUK masing-masing User berbayar
+    Tambahkan uangmasukan dari aplikasi ke dalam totalPendaoatan
