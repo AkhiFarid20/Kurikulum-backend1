@@ -1,0 +1,6 @@
+var_dump($d + $e); : mengatahui hasil dari perhitungan pertambahan (3 + '2') di browser
+var_dump($e == $f); : mengatahui apa veriabel true atau false dalam persaman
+var_dump($e === $f); :mengatahui apa identik veriabel tersebut true atau false dalam data veriabel 
+var_dump($g); : mengatahui apakah di veriabel tersebut apa benar2 null atau tidak
+var_dump((bool)$g); : mengatahui apakah di $g itu true atau false
+var_dump((int)$g); : mengatahui apakah di $g tersebut ada bilangan desimal

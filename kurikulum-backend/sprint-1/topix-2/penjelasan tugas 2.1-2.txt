@@ -1,0 +1,6 @@
+var_dump(true && false); : menjelaskan hasil variabel tersebut apakah benar semua tau tidak 
+var_dump(true || false); : menjelaskan hasil variabel tersebut apakah salah satu variabel ada
+                           true atau false jika ada true maka itu true jika false maka itu false
+var_dump(false || false); : menjelaskan hasil variabel tersebut apakah salah satu variabel ada
+                           true atau false jika ada true maka itu true jika false maka itu false
+var_dump(!false); : menjelaskan hasil variabel tersebut harus true maupun hasil tersebut false
