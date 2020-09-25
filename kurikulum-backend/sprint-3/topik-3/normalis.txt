@@ -1,0 +1,14 @@
+1NF : bentuk pertama dalam tabel database
+    #fungsi-fungsi table pertama(database)
+    -Menghilangkan duplikasi kolom dari tabel yang sama saat pembuatan database, 
+    -Buat tabel terpisah untuk masing-masing kelompok data terkait dan mengidentifikasi setiap baris dengan kolom yang unik (primary key).
+2NF : bentuk table kedua(database) 
+      syarat pembuat table kedua : table pertama(database) telah selesai dibuat/telah terpenuhi.
+    #fungsi-fungsi table kedua(database) 
+    -Menghapus beberapa subset data yang ada pada tabel database dan menempatkan mereka pada tabel terpisah dari table pusat.
+    -Menghubungkan table pertama dengan kedua dengan FOREIGN KEY
+3NF : bentuk table ketiga(database)
+    #syarat-syarat pembuat table ketiga
+    -Memenuhi semua persyaratan dari bentuk normal kedua
+    -Menghapus kolom yang tidak tergantung pada PRIMARY KEY
+    -setiap relasi tidak mempunyai atribut yang bergantung transitif, harus bergantung penuh pada kunci utama dan harus memenuhi bentuk table 2(database)
