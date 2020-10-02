@@ -1,4 +1,13 @@
 <?php
+
+session_start();
+if (isset($_SESSION["username"])) {
+    echo'<h3>login succes, welcome - ' .$_SESSION["username"].'</h3>';
+    echo'<br><br><a href="index.php">logout</a>';
+}else{
+    header("location:index.php");
+}
+
 class post {
 
     protected $servername = "localhost",
@@ -74,7 +83,6 @@ $kelas = new post;
                     <td>
                         <a href="update.php?id=<?= $value['id'] ?>">update</a>
                         <a href="delete.php?id=<?= $value['id'] ?>">delete</a>
-                    </td>
                 </tr>
             <?php endforeach; ?>
         </tbody>

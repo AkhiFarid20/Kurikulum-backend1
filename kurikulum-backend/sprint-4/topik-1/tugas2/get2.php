@@ -1,4 +1,14 @@
 <?php
+
+session_start();
+if (isset($_SESSION["username"])) {
+    echo'<br><br><a href="login_succes.php">logout</a>';
+}else{
+    header("location:index.php");
+}
+?>
+
+<?php
 class post {
 
     protected $servername = "localhost",
